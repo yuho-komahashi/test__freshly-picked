@@ -11,12 +11,14 @@
 
 <body>
     <header class="header">
-        <div class="header-logo">mogitate</div>
+        <div class="header__inner">
+            <div class="header-logo">mogitate</div>
+        </div>
     </header>
-
     <main>
-        @yield('content')
+        <div class="main-area">
+            @yield('content')
+        </div>
     </main>
 </body>
-
 </html>

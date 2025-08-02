@@ -1,0 +1,101 @@
+.detail-contents__inner{
+    width:800px;
+    margin: 70px auto;
+
+}
+
+.breadcrumbs{
+    font-size: 14px;
+}
+
+.detail-form{
+    margin-top: 10px;
+}
+
+.detail-form__group{
+    display: flex;
+}
+
+.detail-form__image{
+    margin-right: 30px;
+}
+
+.detail__image{
+    width: 373px;
+    height: 280px;
+}
+
+.detail-form__detail{
+    width:100%;
+}
+
+.detail-form__detail--item:nth-child(n+2) {
+    padding-top: 30px;
+}
+
+.detail-form__label {
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.detail-form__input {
+    margin-top: 10px;
+}
+
+.detail-form__input--text,
+.detail-form__input--textarea {
+    width: 100%;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #E0DFDE;
+
+}
+
+.detail-form__input--checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.detail-form__input--season {
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+.detail-form__description{
+    margin-top: 30px;
+}
+
+.detail-form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.detail-form__button--back,
+.detail-form__button--update {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    color: #4B4B4B;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detail-form__button--back {
+    background-color: #E0DFDE;
+    margin-right: 20px;
+
+}
+
+.detail-form__button--update {
+    background-color: #F5C800;
+}

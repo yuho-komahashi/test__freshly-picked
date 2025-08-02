@@ -1,0 +1,112 @@
+.contents{
+    padding-top:20px;
+    padding-bottom: 70px;
+}
+
+.register-form{
+    width:760px;
+    margin: 0 auto;
+}
+
+.register-form__label{
+    font-size: 16px;
+    color:#4B4B4B;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.register-form__label--required{
+    background-color: #FD0707;
+    color:#ffffff;
+    font-size: 12px;
+    width:24px;
+    padding: 1px 5px;
+
+}
+
+.register-form__label--required-text{
+    color: #FD0707;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.register-form__group:nth-child(n+2){
+    padding-top: 30px;
+}
+
+.register-form__input{
+    margin-top: 10px;
+}
+.register-form__input--text,
+.register-form__input--textarea{
+    width:100%;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    color:#E0DFDE;
+
+}
+
+.register-form__input--text{
+    height: 45px;
+}
+
+.register-form__img{
+    margin-top: 10px;
+}
+
+.register__img {
+    width: 373px;
+    height: 280px;
+}
+
+.register-form__input--image{
+    height:30px;
+}
+.register-form__input--checkbox{
+    width:20px;
+    height:20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.register-form__input--season{
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+.register-form__input--textarea{
+    width:100%;
+
+}
+
+.register-form__button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register-form__button--back,
+.register-form__button--register{
+    width:200px;
+    height:50px;
+    font-size: 16px;
+    color:#4B4B4B;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register-form__button--back{
+    background-color: #E0DFDE;
+    margin-right: 20px;
+    
+}
+
+.register-form__button--register{
+    background-color:#F5C800 ;
+}
+

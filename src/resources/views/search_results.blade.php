@@ -4,16 +4,13 @@
 <link rel="stylesheet" href="{{ asset('css/products.css') }}">
 @endsection
 
-@section('title','商品一覧')
+@section('title','検索結果')
 
 @section('content')
 
 <div class="heading">
     <div class="heading__inner">
-        <h1 class="products__header">商品一覧</h1>
-        <div class="heading__inner--link">
-            <button class="add-product" type="button" onclick="location.href='/products/register'">+ 商品を追加</button>
-        </div>
+        <h1 class="products__header">"　"の商品一覧</h1>
     </div>
 </div>
 
