@@ -6,7 +6,7 @@ html
 body{
     height: 100%;
     margin: 0;
-    background-color: #bbeaff;
+    background-color: #F8F8F8;
 }
 
 h1,
@@ -70,6 +70,10 @@ p {
 
 a{
     text-decoration: none;
+}
+
+input::placeholder {
+    color: #E0DFDE;;
 }
 
 .register-form__error,
