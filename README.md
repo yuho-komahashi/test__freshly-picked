@@ -2,14 +2,14 @@
 
 ### 環境構築
 
-####Docker ビルド
+#### Docker ビルド
 
 1. ファイルをクローン
    > git clone git@github.com:yuho-komahashi/test\_\_freshly-picked.git
 1. DockerDesktop 起動
 1. docker-compose up -d --build
 
-####Laravel 環境構築
+#### Laravel 環境構築
 
 1. docker-compose exec php bash
 1. composer install
@@ -31,7 +31,7 @@
 1. シンボリックリンク作成
    > php artisan storage:link
 
-###使用技術(実行環境)
+### 使用技術(実行環境)
 
 - Laravel 8
 - PHP 8.1
