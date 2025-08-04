@@ -37,7 +37,7 @@
 - PHP 8.1
 - Mysql 8.0.26
 
-###ER 図
+### ER 図
 ![ER図](images/er.png)
 
 ### URL
